@@ -21,7 +21,7 @@ export default async function handler(req, res) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "gpt-4.1",
+        model: "gpt-3.5-turbo",
         messages,
         temperature: 0.3,
         max_tokens: 800,
