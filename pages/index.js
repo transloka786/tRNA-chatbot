@@ -45,7 +45,7 @@ export default function Home() {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      fontFamily: "Inter, Arial, sans-serif"
+      fontFamily: "'Poppins', Arial, sans-serif"
     }}>
       <div style={{
         background: "#181a20",
@@ -56,12 +56,28 @@ export default function Home() {
         flexDirection: "column",
         alignItems: "center",
         width: "96%",
-        maxWidth: 420,
+        maxWidth: 430,
         marginTop: 60
       }}>
         <img src="/logo.png"
           alt="KritRNA World Logo"
-          style={{ height: 82, marginBottom: 32, marginTop: 10, borderRadius: "2em" }} />
+          style={{ height: 82, marginBottom: 20, marginTop: 10, borderRadius: "2em" }} />
+        {/* Sanskrit name explanation */}
+        <div style={{ color: "#d1d7e0", marginBottom: 6, fontSize: "1.08em", textAlign: "center" }}>
+          <b>krit</b> (कृत्, Sanskrit): “engineered”<br />
+          <b>tRNA</b>: the cell’s builder molecule
+        </div>
+        {/* Tagline */}
+        <div style={{
+          color: "#ff00b7",
+          fontWeight: 700,
+          fontSize: "1.12em",
+          margin: "7px 0 21px 0",
+          textAlign: "center",
+          letterSpacing: "0.01em"
+        }}>
+          A Gene Therapy Company
+        </div>
 
         {/* Language toggle buttons */}
         <div style={{ marginBottom: 15 }}>
@@ -127,7 +143,7 @@ export default function Home() {
         borderTop: "2px solid #08C6FF",
         letterSpacing: "0.01em"
       }}>
-        © 2025 KritRNA Biotechnologies Private Limited. All rights reserved.
+        © 2025 KritRNA. All rights reserved.
       </footer>
     </div>
   );
