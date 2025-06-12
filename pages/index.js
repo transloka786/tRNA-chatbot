@@ -9,7 +9,14 @@ const EXPLAINER = {
       <p style={{ fontSize: "1.13em", color: "#d1d7e0", lineHeight: 1.75, margin: "0 0 1.8em 0", textAlign: "center" }}>
         Imagine your body is like a giant factory, and proteins are the machines that keep everything running. To build these machines, your body uses instructions from your genes. But sometimes, there’s a mistake in the instructions—a “stop sign” shows up too soon, and the machine is left unfinished.<br /><br />
         tRNA is like a helpful delivery truck that brings the right building blocks to the factory to build each machine. At KritRNA, we’re creating special delivery trucks, called <b>suppressor tRNA</b>, that can recognize when there’s an accidental stop sign and help the factory finish building the machine anyway.<br /><br />
-        This is really important because many people have diseases that are caused by these accidental stop signs. Our technology gives their cells a way to finish the job and make the proteins they need to stay healthy. <b>Our mission at KritRNA is to use this science to help people around the world live healthier, happier lives!</b>
+        This technology is especially important because some people are born with **serious genetic diseases caused by these “premature stop signs” in their genes**. Examples include:
+        <ul style={{ color: "#d1d7e0", margin: "12px 0 12px 20px", textAlign: "left", fontSize: "1em" }}>
+          <li><b>Duchenne muscular dystrophy (DMD):</b> leads to progressive muscle weakness, often fatal in early adulthood</li>
+          <li><b>Cystic fibrosis (CF):</b> causes severe lung and digestive problems</li>
+          <li><b>Beta thalassemia:</b> leads to life-threatening anemia, requiring frequent blood transfusions</li>
+        </ul>
+        <b>These are life-ending, genetic diseases present from birth, with no true cure today.</b> Our technology gives patients’ cells a way to finish making the proteins they desperately need, offering hope where there was none.<br /><br />
+        <b>Our mission at KritRNA is to use this science to help people around the world live healthier, happier lives!</b>
       </p>
       <div style={{ color: "#ff00b7", fontWeight: 700, margin: "1.2em 0", fontSize: "1.05em" }}>
         To know more or get answers to your own questions,<br />
@@ -25,7 +32,14 @@ const EXPLAINER = {
       <p style={{ fontSize: "1.13em", color: "#d1d7e0", lineHeight: 1.75, margin: "0 0 1.8em 0", textAlign: "center" }}>
         कल्पना कीजिए कि आपका शरीर एक बड़ी फैक्ट्री की तरह है, और प्रोटीन वे मशीनें हैं जो सबकुछ चलाती हैं। इन मशीनों को बनाने के लिए आपके शरीर को आपके जीन की निर्देशों की जरूरत होती है। लेकिन कभी-कभी, इन निर्देशों में गलती से एक "रुकावट का संकेत" (स्टॉप साइन) आ जाता है और मशीन अधूरी रह जाती है।<br /><br />
         tRNA एक सहायक डिलीवरी ट्रक की तरह है, जो फैक्ट्री तक सही बिल्डिंग ब्लॉक पहुँचाता है। KritRNA में, हम ऐसे खास डिलीवरी ट्रक बना रहे हैं जिन्हें <b>सप्रेसर tRNA</b> कहते हैं, जो अचानक आए स्टॉप साइन को पहचान सकते हैं और फैक्ट्री को मशीन पूरी करने में मदद करते हैं।<br /><br />
-        यह इसलिए ज़रूरी है क्योंकि बहुत से लोगों को ऐसी बीमारियाँ होती हैं जो इन अचानक आए स्टॉप संकेतों की वजह से होती हैं। हमारी तकनीक उनके शरीर की कोशिकाओं को काम पूरा करने और सही प्रोटीन बनाने का मौका देती है। <b>KritRNA का मिशन है कि हम इस विज्ञान का उपयोग करके दुनिया भर के लोगों को बेहतर और स्वस्थ जीवन दे सकें!</b>
+        यह तकनीक विशेष रूप से उन लोगों के लिए महत्वपूर्ण है जो <b>जन्म से ही गंभीर आनुवंशिक बीमारियों के साथ पैदा होते हैं, जिनका कारण इन्हीं "अचानक आए स्टॉप संकेत" हैं</b>। उदाहरण स्वरूप:
+        <ul style={{ color: "#d1d7e0", margin: "12px 0 12px 20px", textAlign: "left", fontSize: "1em" }}>
+          <li><b>ड्यूचेन मस्कुलर डिस्ट्रॉफी (DMD):</b> मांसपेशियों की कमजोरी, जो अक्सर युवावस्था में जानलेवा हो जाती है</li>
+          <li><b>सिस्टिक फाइब्रोसिस (CF):</b> फेफड़ों और पाचन तंत्र में गंभीर समस्याएँ</li>
+          <li><b>बीटा थैलेसीमिया:</b> गंभीर खून की कमी, जिसमें बार-बार रक्त चढ़ाने की जरूरत पड़ती है</li>
+        </ul>
+        <b>ये जीवन समाप्त करने वाली, जन्मजात बीमारियाँ हैं, जिनका आज तक कोई सच्चा इलाज नहीं है।</b> हमारी तकनीक इन मरीजों की कोशिकाओं को वह ज़रूरी प्रोटीन बनाने में मदद करती है, जिससे उन्हें नई उम्मीद मिलती है।<br /><br />
+        <b>KritRNA का मिशन है कि हम इस विज्ञान का उपयोग करके दुनिया भर के लोगों को बेहतर और स्वस्थ जीवन दे सकें!</b>
       </p>
       <div style={{ color: "#ff00b7", fontWeight: 700, margin: "1.2em 0", fontSize: "1.05em" }}>
         और अधिक जानने या अपने सवाल पूछने के लिए,<br />
@@ -34,6 +48,7 @@ const EXPLAINER = {
     </>
   ),
 };
+
 
 export default function Home() {
   const [lang, setLang] = useState("en");
