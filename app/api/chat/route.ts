@@ -1,4 +1,5 @@
-
+export const runtime = 'nodejs';      // ensure Node runtime (allows fs/path)
+export const dynamic = 'force-dynamic'; // no static caching of the chat route
 import { NextRequest } from 'next/server';
 import OpenAI from 'openai';
 import fs from 'node:fs';
