@@ -1,1 +1,127 @@
 
+:root {
+  --bg: #0b0d12;
+  --panel: #121622;
+  --card: #171b29;
+  --text: #e6e7ea;
+  --muted: #9aa0aa;
+  --accent: #c9f31d; /* neon yellow-green */
+  --chip-public: #89b4fa;
+  --chip-clinician: #94e2d5;
+  --chip-researcher: #cba6f7;
+  --chip-investor: #f38ba8;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+a { color: var(--accent); text-decoration: none; }
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+}
+.subtitle {
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin: 26px 0 34px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid #222738;
+  border-radius: 12px;
+  padding: 14px;
+}
+.card small { color: var(--muted); font-weight: 600; letter-spacing: .02em; }
+.card h4 { margin: 8px 0 0; font-size: 14px; line-height: 1.35; }
+
+.card[data-variant="public"] { border-color: var(--chip-public); }
+.card[data-variant="clinician"] { border-color: var(--chip-clinician); }
+.card[data-variant="researcher"] { border-color: var(--chip-researcher); }
+.card[data-variant="investor"] { border-color: var(--chip-investor); }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid #20263a;
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.chat {
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+}
+.history {
+  flex: 1;
+  overflow: auto;
+  padding: 12px;
+}
+.bubble {
+  max-width: 70%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border-radius: 12px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+.bubble.user { background: #25304b; margin-left: auto; }
+.bubble.bot { background: #1e2436; border: 1px solid #262d45; }
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.input {
+  flex: 1;
+  background: #0f1320;
+  border: 1px solid #22283a;
+  color: var(--text);
+  border-radius: 10px;
+  padding: 12px;
+  outline: none;
+}
+.button {
+  background: var(--accent);
+  color: #0a0b0f;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .title { font-size: 32px; }
+}
